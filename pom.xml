@@ -90,7 +90,7 @@
         <encoding>UTF-8</encoding>
         <java.version>1.8</java.version>
         <maven.version.minimum>3.2.2</maven.version.minimum>
-        <mizool.typemapping.version>0.1-SNAPSHOT</mizool.typemapping.version>
+        <mizool.typemapping.version>0.1</mizool.typemapping.version>
         <mizool.version>0.32-SNAPSHOT</mizool.version>
         <origin>git@github.com:mizool/tableaccess.git</origin>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
