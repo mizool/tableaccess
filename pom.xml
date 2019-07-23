@@ -17,7 +17,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    
+
     <developers>
         <developer>
             <name>Jan Dörrenhaus</name>
@@ -90,8 +90,8 @@
         <encoding>UTF-8</encoding>
         <java.version>1.8</java.version>
         <maven.version.minimum>3.2.2</maven.version.minimum>
-        <mizool.version>0.32-SNAPSHOT</mizool.version>
         <mizool.typemapping.version>0.1-SNAPSHOT</mizool.typemapping.version>
+        <mizool.version>0.32-SNAPSHOT</mizool.version>
         <origin>git@github.com:mizool/tableaccess.git</origin>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
@@ -121,11 +121,6 @@
                 <version>${mizool.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.mizool.technology</groupId>
-                <artifactId>technology-cassandra</artifactId>
-                <version>${mizool.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.github.mizool.tableaccess</groupId>
                 <artifactId>tableaccess-business</artifactId>
                 <version>${project.version}</version>
@@ -139,6 +134,11 @@
                 <groupId>com.github.mizool.tableaccess.store</groupId>
                 <artifactId>tableaccess-store-jdbc</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.mizool.technology</groupId>
+                <artifactId>technology-cassandra</artifactId>
+                <version>${mizool.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.mizool.typemapping</groupId>
