@@ -82,7 +82,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://${ossrh.host}/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -94,6 +94,7 @@
         <mizool.typemapping.version>0.3</mizool.typemapping.version>
         <mizool.version>0.31</mizool.version>
         <origin>git@github.com:mizool/tableaccess.git</origin>
+        <ossrh.host>s01.oss.sonatype.org</ossrh.host>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
         <slf4j.version>1.7.7</slf4j.version>
@@ -350,7 +351,7 @@
                     <extensions>true</extensions>
                     <configuration>
                         <serverId>ossrh</serverId>
-                        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                        <nexusUrl>https://${ossrh.host}/</nexusUrl>
                         <autoReleaseAfterClose>true</autoReleaseAfterClose>
                     </configuration>
                 </plugin>
